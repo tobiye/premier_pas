@@ -1,0 +1,46 @@
+header {
+  position: relative;
+}
+
+right-align { 
+  text-align: right;
+ }
+
+.header-banner {
+  width: 100%;
+  height: auto;
+}
+
+.header-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgba(0, 0, 255, 0.5);
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header-content h1 {
+  margin: 0;
+}
+
+.header-content nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.header-content nav ul li {
+  margin-left: 10px;
+}
+
+.header-content nav ul li a {
+  color: white;
+  text-decoration: none;
+}
